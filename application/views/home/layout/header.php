@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FarmFresh - Organic Farm Website Template</title>
+    <title>Agrivaulture</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -19,6 +19,8 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
 
     <!-- Libraries Stylesheet -->
     <link href="<?= base_url('assets/template/lib/owlcarousel/assets/owl.carousel.min.css') ?>" rel="stylesheet">
@@ -36,26 +38,28 @@
         <div class="row gx-5 py-3 align-items-center">
             <div class="col-lg-3">
                 <div class="d-flex align-items-center justify-content-start">
-                    <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
-                    <h2 class="mb-0">+012 345 6789</h2>
+                    <!-- Ganti ikon phone-vibrate dengan ikon seedling -->
+                    <i class="fas fa-seedling fs-1 text-primary me-2"></i>
+                    <h5 class="mb-0">Kelompok Tani Ngudi Lestari</h5>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="d-flex align-items-center justify-content-center">
                     <a href="index.html" class="navbar-brand ms-lg-5">
-                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Farm</span>Fresh</h1>
+                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Agri</span>vaulture</h1>
                     </a>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="d-flex align-items-center justify-content-end">
                     <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i
-                            class="fab fa-twitter"></i></a>
+                            class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i
+                            class="fab fa-instagram"></i></a>
                     <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-primary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-primary btn-square rounded-circle" href="#"><i
+                            class="fab fa-telegram-plane"></i></a>
                 </div>
             </div>
         </div>
@@ -73,21 +77,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="product.html" class="nav-item nav-link">Product</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                <a href="about.html" class="nav-item nav-link">Tentang</a>
+                <a href="service.html" class="nav-item nav-link">Inventaris</a>
+                <a href="product.html" class="nav-item nav-link">Peminjaman</a>
+                <a href="contact.html" class="nav-item nav-link">Kontak</a>
             </div>
         </div>
     </nav>
